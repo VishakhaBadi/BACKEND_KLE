@@ -1,4 +1,4 @@
-let response= require('../service/fact.service')
+let response= require('../services/fact.service')
 let =fetchfact=(req,res)=>{
   res.json(response());
 }
